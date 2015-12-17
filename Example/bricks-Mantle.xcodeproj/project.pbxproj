@@ -20,9 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6DB9CE23DD2F60C112C39A24 /* Pods_bricks_Mantle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDBC5782EA3D5B47D8BA917 /* Pods_bricks_Mantle_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		EB2E23B64CB6C7512D70F380 /* Pods_bricks_Mantle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3153078D14948DDB28ACE4 /* Pods_bricks_Mantle_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C4CAE39BFC1F2620B3744B16 /* libPods-bricks-Mantle_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 606F499616DC8D8238C08A84 /* libPods-bricks-Mantle_Example.a */; };
+		E2441C0335A9B831E78E5C9B /* libPods-bricks-Mantle_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7228B1E2D2845DEFB8ED9D7E /* libPods-bricks-Mantle_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C3153078D14948DDB28ACE4 /* Pods_bricks_Mantle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bricks_Mantle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58A195388D20070C39A /* bricks-Mantle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "bricks-Mantle.app"; path = "bricks-Mantle_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* bricks-Mantle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bricks-Mantle_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -50,14 +49,15 @@
 		6003F5A5195388D20070C39A /* BKMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKMViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* BKMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKMViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = "bricks-Mantle_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* bricks-Mantle_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bricks-Mantle_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606F499616DC8D8238C08A84 /* libPods-bricks-Mantle_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bricks-Mantle_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		62811448FD1BE0064C1535C4 /* Pods-bricks-Mantle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bricks-Mantle_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bricks-Mantle_Tests/Pods-bricks-Mantle_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7BDBC5782EA3D5B47D8BA917 /* Pods_bricks_Mantle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bricks_Mantle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7228B1E2D2845DEFB8ED9D7E /* libPods-bricks-Mantle_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bricks-Mantle_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EF766D4D13F4D9584BD21B /* bricks-Mantle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "bricks-Mantle.podspec"; path = "../bricks-Mantle.podspec"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9F5BE3EAA9674376A4A21E95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6DB9CE23DD2F60C112C39A24 /* Pods_bricks_Mantle_Example.framework in Frameworks */,
+				C4CAE39BFC1F2620B3744B16 /* libPods-bricks-Mantle_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				EB2E23B64CB6C7512D70F380 /* Pods_bricks_Mantle_Tests.framework in Frameworks */,
+				E2441C0335A9B831E78E5C9B /* libPods-bricks-Mantle_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +108,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* bricks-Mantle.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* bricks-Mantle_Example.app */,
+				6003F5AE195388D20070C39A /* bricks-Mantle_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				7BDBC5782EA3D5B47D8BA917 /* Pods_bricks_Mantle_Example.framework */,
-				5C3153078D14948DDB28ACE4 /* Pods_bricks_Mantle_Tests.framework */,
+				606F499616DC8D8238C08A84 /* libPods-bricks-Mantle_Example.a */,
+				7228B1E2D2845DEFB8ED9D7E /* libPods-bricks-Mantle_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,7 +204,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8F74AF4C942D556AFC7B1561 /* Embed Pods Frameworks */,
 				BD6F1153351621E523160816 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -213,7 +212,7 @@
 			);
 			name = "bricks-Mantle_Example";
 			productName = "bricks-Mantle";
-			productReference = 6003F58A195388D20070C39A /* bricks-Mantle.app */;
+			productReference = 6003F58A195388D20070C39A /* bricks-Mantle_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* bricks-Mantle_Tests */ = {
@@ -224,7 +223,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				900680ECCF349D8B11DBAB70 /* Embed Pods Frameworks */,
 				D24EE5003043D77240C551C5 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -234,7 +232,7 @@
 			);
 			name = "bricks-Mantle_Tests";
 			productName = "bricks-MantleTests";
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* bricks-Mantle_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -306,36 +304,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		8F74AF4C942D556AFC7B1561 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bricks-Mantle_Example/Pods-bricks-Mantle_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		900680ECCF349D8B11DBAB70 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bricks-Mantle_Tests/Pods-bricks-Mantle_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD6F1153351621E523160816 /* Copy Pods Resources */ = {
