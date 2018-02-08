@@ -1,6 +1,6 @@
 # bricks-Mantle
 
-[![CI Status](http://img.shields.io/travis/Thiago Lioy/bricks-Mantle.svg?style=flat)](https://travis-ci.org/Thiago Lioy/bricks-Mantle)
+[![CI Status](http://img.shields.io/travis/thiagolioy/bricks-Mantle.svg?style=flat)](https://travis-ci.org/thiagolioy/bricks-Mantle)
 [![Version](https://img.shields.io/cocoapods/v/bricks-Mantle.svg?style=flat)](http://cocoapods.org/pods/bricks-Mantle)
 [![License](https://img.shields.io/cocoapods/l/bricks-Mantle.svg?style=flat)](http://cocoapods.org/pods/bricks-Mantle)
 [![Platform](https://img.shields.io/cocoapods/p/bricks-Mantle.svg?style=flat)](http://cocoapods.org/pods/bricks-Mantle)
