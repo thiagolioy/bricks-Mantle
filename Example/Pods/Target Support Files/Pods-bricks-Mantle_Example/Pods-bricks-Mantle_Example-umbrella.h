@@ -10,3 +10,7 @@
 #endif
 #endif
 
+
+FOUNDATION_EXPORT double Pods_bricks_Mantle_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_bricks_Mantle_ExampleVersionString[];
+

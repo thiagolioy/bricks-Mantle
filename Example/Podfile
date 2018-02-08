@@ -1,11 +1,14 @@
 source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+
 #use_frameworks!
 
-target 'bricks-Mantle_Example', :exclusive => true do
+target 'bricks-Mantle_Example' do
   pod "bricks-Mantle", :path => "../"
 end
 
-target 'bricks-Mantle_Tests', :exclusive => true do
+target 'bricks-Mantle_Tests' do
   pod "bricks-Mantle", :path => "../"
 
   pod 'Specta'

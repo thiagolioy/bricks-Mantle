@@ -1,0 +1,6 @@
+framework module bricks_Mantle {
+  umbrella header "bricks-Mantle-umbrella.h"
+
+  export *
+  module * { export * }
+}

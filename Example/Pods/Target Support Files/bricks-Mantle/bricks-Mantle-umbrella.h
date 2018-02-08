@@ -10,3 +10,8 @@
 #endif
 #endif
 
+#import "BKMBaseMantleObj.h"
+
+FOUNDATION_EXPORT double bricks_MantleVersionNumber;
+FOUNDATION_EXPORT const unsigned char bricks_MantleVersionString[];
+
