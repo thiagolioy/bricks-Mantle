@@ -1,11 +1,11 @@
 PODS:
-  - bricks-Mantle (0.1.0):
-    - Mantle (~> 2.0.5)
-  - Expecta (1.0.5)
-  - Mantle (2.0.6):
-    - Mantle/extobjc (= 2.0.6)
-  - Mantle/extobjc (2.0.6)
-  - Specta (1.0.5)
+  - bricks-Mantle (0.1.1):
+    - Mantle (~> 2.1.0)
+  - Expecta (1.0.6)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Specta (1.0.7)
 
 DEPENDENCIES:
   - bricks-Mantle (from `../`)
@@ -17,9 +17,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  bricks-Mantle: 164b915d059b0d8e9501f6e2fb479e0061401b61
-  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Mantle: 299966b00759634931699f69cb6a30b9239b944d
-  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  bricks-Mantle: c6372dad0de61576716956794d15f198d5c47f83
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-COCOAPODS: 0.38.2
+PODFILE CHECKSUM: f592be71e0eb85f1269ab993c22a4a0b65876988
+
+COCOAPODS: 1.4.0

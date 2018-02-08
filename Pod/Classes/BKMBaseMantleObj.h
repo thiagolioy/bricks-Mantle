@@ -7,19 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Mantle.h"
+#import <Mantle/Mantle.h>
 
 @interface BKMBaseMantleObj : MTLModel<MTLJSONSerializing>
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey;
-+(instancetype)parse:(NSDictionary*)dc error:(NSError**)error;
--(NSDictionary*)asDictError:(NSError**)error;
++ (instancetype)parse:(NSDictionary*)dc error:(NSError**)error;
+- (NSDictionary*)asDictError:(NSError**)error;
 
 @end
 
 @interface BKMBaseMantleObj (Collections)
 
-+(NSArray*)asArrayOfDictFromModelArray:(NSArray*)objects error:(NSError**)error;
-+(NSArray*)parseArray:(NSArray*)objs error:(NSError**)error;
++ (NSArray*)asArrayOfDictFromModelArray:(NSArray*)objects error:(NSError**)error;
++ (NSArray*)parseArray:(NSArray*)objs error:(NSError**)error;
 
 @end

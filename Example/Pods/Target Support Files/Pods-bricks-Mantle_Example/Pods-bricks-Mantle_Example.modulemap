@@ -1,0 +1,6 @@
+framework module Pods_bricks_Mantle_Example {
+  umbrella header "Pods-bricks-Mantle_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

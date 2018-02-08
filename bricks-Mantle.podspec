@@ -37,5 +37,5 @@ Pod::Spec.new do |s|
   }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
-  s.dependency 'Mantle', '~> 2.0.5'
+  s.dependency 'Mantle', '~> 2.0.7'
 end
